@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+
+<body bgcolor="magenta">
+
+<form action="RegisterServlet" method="post">
+
+<h1 align="center">REGISTRATION FORM</h1>
+
+<table align="center" cellpadding="10">
+
+<tr>
+<td>Name:</td>
+<td><input type="text" name="t1" required></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="t2" required></td>
+</tr>
+
+<tr>
+<td>Phone:</td>
+<td><input type="text" name="t3" pattern="[0-9]{10}" required></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" name="t4" required></td>
+</tr>
+
+<tr align="center">
+<td><input type="submit" value="Submit"></td>
+<td><input type="reset" value="Cancel"></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
